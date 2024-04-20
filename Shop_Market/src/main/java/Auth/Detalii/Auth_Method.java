@@ -4,27 +4,25 @@ import java.util.Scanner;
 
 public class Auth_Method {
     static Scanner scan = new Scanner(System.in);
-    protected String nume = "";
-    protected String parola = "";
+    protected String nume;
+    protected String parola;
 
     public String getNume() {
         return nume;
     }
 
-    public void setNume(String nume) {
+    public void setNume() {
         System.out.println("Nume: ");
-        nume = scan.nextLine();
-        this.nume = nume;
+        this.nume = scan.nextLine();
     }
 
     public String getParola() {
         return parola;
     }
 
-    public void setParola(String parola) {
+    public void setParola() {
         System.out.println("Parola: ");
-        parola = scan.nextLine();
-        this.parola = parola;
+        this.parola = scan.nextLine();
     }
 
     public Auth_Method(){
