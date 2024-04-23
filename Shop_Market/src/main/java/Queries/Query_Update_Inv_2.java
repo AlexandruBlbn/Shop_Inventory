@@ -1,12 +1,11 @@
 package Queries;
 
-public class Query_Select_Inv extends Query_Propietati {
-
-    public void Constructor(StringBuilder queryBuilder, int nrMagazin, String tip, String felArticol, String brand, String proprietate, String oras ) {
-        String queryComplet = "SELECT * FROM INVENTAR";
+public class Query_Update_Inv_2 {
+    public void Constructor(StringBuilder queryBuilder, String nrMagazin, String tip, String felArticol, String brand, String proprietate, String oras ) {
+        String queryComplet = "";
         queryBuilder.append(queryComplet);
         queryBuilder.append(" WHERE 1=1");
-        if (nrMagazin != 0){
+        if (nrMagazin != null && !tip.isEmpty()){
             queryBuilder.append(" AND Nr_Magazin = ").append(nrMagazin);
         }
         if (tip != null && !tip.isEmpty()) {

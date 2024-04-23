@@ -15,6 +15,7 @@ public class database_check extends Auth_Method {
         try {
             Connection conexiune = DriverManager.getConnection(url, user, parola);
             System.out.println("Conexiune efectuata cu succes!");
+            conexiune.close();
             return true;
         }
         catch (SQLException e){
@@ -22,6 +23,7 @@ public class database_check extends Auth_Method {
             System.out.println(e);
             return false;
         }
+
     }
 
 }

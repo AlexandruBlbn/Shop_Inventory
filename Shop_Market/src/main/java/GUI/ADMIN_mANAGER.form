@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="GUI.ADMIN_mANAGER">
+  <grid id="27dc6" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="841" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="e9b95" binding="Vizualizare" layout-manager="GridLayoutManager" row-count="9" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="30" left="30" bottom="30" right="30"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16747647"/>
+          <font name="Courier New" size="20"/>
+          <foreground color="-1711902"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="da212" class="javax.swing.JButton" binding="acasaButton" default-binding="true">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-6581971"/>
+              <font name="Monospac821 BT" size="20"/>
+              <foreground color="-1711902"/>
+              <text value="Acasa"/>
+            </properties>
+          </component>
+          <scrollpane id="68d98">
+            <constraints>
+              <grid row="2" column="3" row-span="6" col-span="2" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1711902"/>
+              <foreground color="-13945023"/>
+            </properties>
+            <border type="none"/>
+            <children>
+              <component id="e0bc1" class="javax.swing.JTable" binding="table1" default-binding="true">
+                <constraints/>
+                <properties>
+                  <autoCreateRowSorter value="false"/>
+                  <background color="-1711902"/>
+                  <editingColumn value="-1"/>
+                  <editingRow value="-1"/>
+                  <enabled value="false"/>
+                  <requestFocusEnabled value="false"/>
+                </properties>
+                <clientProperties>
+                  <JTable.autoStartsEdit class="java.lang.Boolean" value="true"/>
+                </clientProperties>
+              </component>
+            </children>
+          </scrollpane>
+          <component id="36daa" class="javax.swing.JButton" binding="creareButton">
+            <constraints>
+              <grid row="8" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11010027"/>
+              <font name="Monospac821 BT" size="20"/>
+              <foreground color="-1711902"/>
+              <text value="Creaza cont"/>
+            </properties>
+          </component>
+          <component id="d0f3a" class="javax.swing.JButton" binding="stergereButton" default-binding="true">
+            <constraints>
+              <grid row="8" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-11010027"/>
+              <font name="Monospac821 BT" size="20"/>
+              <foreground color="-1711902"/>
+              <text value="Stergere"/>
+            </properties>
+          </component>
+          <component id="b2d88" class="javax.swing.JButton" default-binding="true">
+            <constraints>
+              <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-16729240"/>
+              <font name="Monospac821 BT" size="20"/>
+              <foreground color="-1711902"/>
+              <text value="Cautare!"/>
+            </properties>
+          </component>
+          <component id="dfdfb" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="2" row-span="3" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="50c7b" class="javax.swing.JComboBox" binding="boxTip">
+            <constraints>
+              <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1029"/>
+              <model/>
+            </properties>
+          </component>
+          <component id="1e190" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Artifakt Element Black" size="36"/>
+              <foreground color="-69640"/>
+              <text value="Manager control"/>
+            </properties>
+          </component>
+          <component id="24927" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="1" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="16"/>
+              <foreground color="-69640"/>
+              <text value="Nume"/>
+            </properties>
+          </component>
+          <component id="c7c75" class="javax.swing.JComboBox" binding="comboBox1" default-binding="true">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-1029"/>
+            </properties>
+          </component>
+          <component id="2b32d" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font name="Courier New" size="16"/>
+              <foreground color="-69640"/>
+              <text value="Numar magazin"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

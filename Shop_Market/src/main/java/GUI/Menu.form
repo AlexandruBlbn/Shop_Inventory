@@ -3,7 +3,7 @@
   <grid id="27dc6" binding="MenuPanel" layout-manager="GridLayoutManager" row-count="10" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
     <margin top="30" left="30" bottom="30" right="30"/>
     <constraints>
-      <xy x="20" y="20" width="627" height="442"/>
+      <xy x="20" y="20" width="733" height="442"/>
     </constraints>
     <properties>
       <background color="-13945023"/>
@@ -113,20 +113,6 @@
           <text value="ADMIN PANEL"/>
         </properties>
       </component>
-      <component id="94d7c" class="javax.swing.JButton" binding="bInchidere">
-        <constraints>
-          <grid row="6" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false">
-            <preferred-size width="200" height="-1"/>
-            <maximum-size width="130" height="-1"/>
-          </grid>
-        </constraints>
-        <properties>
-          <background color="-11010027"/>
-          <font name="Fira Code" size="16"/>
-          <foreground color="-1711902"/>
-          <text value="INCHIDERE"/>
-        </properties>
-      </component>
       <component id="680b9" class="javax.swing.JLabel">
         <constraints>
           <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
@@ -149,6 +135,28 @@
         </constraints>
         <properties>
           <text value=""/>
+        </properties>
+      </component>
+      <component id="94d7c" class="javax.swing.JButton" binding="bInchidere">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6581971"/>
+          <font name="Fira Code" size="16"/>
+          <foreground color="-1711902"/>
+          <text value="INCHIDERE"/>
+        </properties>
+      </component>
+      <component id="b8b51" class="javax.swing.JButton" binding="bIntroducere">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-16747647"/>
+          <font name="Fira Code" size="16"/>
+          <foreground color="-1711902"/>
+          <text value="INTRODUCERE PRODUS"/>
         </properties>
       </component>
     </children>
