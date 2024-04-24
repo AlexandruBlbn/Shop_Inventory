@@ -18,7 +18,7 @@ public class ADMIN extends JDialog {
         this.detalii = detalii;
         setTitle("Meniu principal");
         setContentPane(AdminPanel);
-        setMinimumSize(new Dimension(700, 500));
+        setMinimumSize(new Dimension(350, 250));
         setModal(true);
         setLocationRelativeTo(null);
         acasaButton.addActionListener(new ActionListener() {
@@ -30,9 +30,21 @@ public class ADMIN extends JDialog {
         CONTROLMANAGERButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
-
+                dispose();
+                ADMIN_mANAGER manager = new ADMIN_mANAGER(detalii);
+                manager.setVisible(true);
             }
         });
+
+        stergereAngajatButton.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                dispose();
+                DeleteUser delete = new DeleteUser(detalii);
+                delete.setVisible(true);
+            }
+        });
+        setVisible(true);
     }
 
     private void acasa() {
@@ -46,4 +58,5 @@ public class ADMIN extends JDialog {
     public static void main(String[] args) {
         ADMIN panou = new ADMIN(null);
     }
+
 }

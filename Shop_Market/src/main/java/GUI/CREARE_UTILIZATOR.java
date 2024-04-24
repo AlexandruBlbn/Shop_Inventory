@@ -42,7 +42,7 @@ public class CREARE_UTILIZATOR extends JDialog {
             @Override
             public void actionPerformed(ActionEvent e) {
                 dispose();
-                Menu menu = new Menu(null);
+                Menu menu = new Menu(detalii);
                 menu.setVisible(true);
             }
         });
